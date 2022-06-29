@@ -5,6 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'brand':{
+        pantone1925C:'#E3025E',
+        pantoneBlackC:'#191919',
+        pantone669C:'#2C245D',
+      },
+      
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
+
