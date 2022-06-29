@@ -1,0 +1,14 @@
+{
+  "name": "edullka-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "front:dev": "cd frontend && yarn start",
+    "back:dev": "cd backend && ts-node-dev src/index.ts"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
