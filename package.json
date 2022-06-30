@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "front:dev": "cd frontend && yarn start",
+    "front:dev": "cd frontend && npm start",
     "back:dev": "cd backend && ts-node-dev src/index.ts"
   },
   "license": "MIT",
