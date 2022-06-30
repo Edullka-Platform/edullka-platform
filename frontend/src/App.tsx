@@ -1,10 +1,10 @@
+import React from "react";
+import { Test } from "./components/Test";
 
-import Test from './components/Test';
-
-function App() {
+function App(): JSX.Element {
   return (
     <div>
-        <Test></Test>
+      <Test />
     </div>
   );
 }
