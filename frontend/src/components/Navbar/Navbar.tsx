@@ -1,23 +1,50 @@
 import React from "react";
+import logo from "../../assets/icons/logo.png";
 
 export const Navbar: React.FC<{}> = () => {
-  return <div>¡¡Hola !!</div>;
+  return(
+    <>
+        <div className="navbar bg-base-300">
+          <div className="flex-1">
+            <a className="btn btn-ghost normal-case text-xl">
+              <img src={logo} alt="Edullka Logo" className="w-10 mr-1" />
+              edullka
+            </a>
+          </div>
+          <div className="flex-none gap-2">
+            <div className="form-control">
+              <input
+                type="text"
+                placeholder="Search"
+                className="input input-bordered"
+              />
+            </div>
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  <img src="https://placeimg.com/80/80/people" />
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a className="justify-between">
+                    Profile
+                    <span className="badge">New</span>
+                  </a>
+                </li>
+                <li>
+                  <a>Settings</a>
+                </li>
+                <li>
+                  <a>Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </>
+  )
 };
-
-// export default Navbar;
-
-// import React from "react"; // we need this to make JSX compile
-
-// type CardProps = {
-//   title: string;
-//   paragraph: string;
-// };
-
-// export const Card = ({ title, paragraph }: CardProps) => (
-//   <aside>
-//     <h2>{title}</h2>
-//     <p>{paragraph}</p>
-//   </aside>
-// );
-
-// const el = <Card title="Welcome!" paragraph="To this example" />;
