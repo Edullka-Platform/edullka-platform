@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 
 
-const Landing = () =>{
+function Landing(): JSX.Element {
     return(
         <>
             <div className="container mx-auto flex justify-center pt-32">
