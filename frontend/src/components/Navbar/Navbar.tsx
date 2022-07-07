@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../assets/icons/logo.png";
+import logo from "../../assets/img/logo.png";
 
 export const Navbar: React.FC<{}> = () => {
   return(
     <div className="mt-5 border-2 border-b-brand-pantone669C border-t-brand-pantone669C">
         <div className="navbar ">
           <div className="flex-1">
-            <a className="btn btn-ghost normal-case text-xl">
+            <a className="btn btn-ghost normal-case text-xl" href="/">
               <img src={logo} alt="Edullka Logo" className="w-10 mr-1" />
               edullka
             </a>
@@ -27,7 +27,11 @@ export const Navbar: React.FC<{}> = () => {
                   </ul>
                 </li>
                 <li><a>Contáctanos</a></li>
-                <li><button type="submit" className="btn bg-brand-pantone1925C border-1 border-brand-pantone1925C text-white h-10" >Campus</button></li>
+                <li>
+                  <a href="/login" className="btn bg-brand-pantone1925C border-1 border-brand-pantone1925C text-white h-10">
+                    Campus
+                  </a>
+                </li>
               </ul>
             </div>
 

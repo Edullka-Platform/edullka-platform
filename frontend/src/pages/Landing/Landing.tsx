@@ -1,9 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-
+import { Navbar } from "../../components/Navbar/Navbar";
 const Landing: React.FC<{}> = () => {
   return (
     <>
+      <Navbar></Navbar>
       <div className="container mx-auto flex justify-center pt-32">
         <p className="text-center text-6xl font-semibold">
           Aprende{" "}
