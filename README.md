@@ -1,4 +1,10 @@
 <h1>Welcome to Edullka!</h1>
+<p>Welcome to our Programing Camp!</p>
+
+Facebook: https://www.facebook.com/CampamentosEdullka
+
+Instagram: https://www.instagram.com/edullka_camp/
+
 
 ## Installation
 **Clone the Repository**
