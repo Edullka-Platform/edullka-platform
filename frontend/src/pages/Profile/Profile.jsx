@@ -1,7 +1,6 @@
-import React from "react";
 import { CampCard } from "../../components/CampCard";
 
-const Profile: React.FC<{}> = () => {
+const Profile = () => {
   return (
     <div className="container mx-auto">
       <div className="flex text-4xl">

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/icons/logo.png";
 
-const Test: React.FC<{}> = () => {
+const Test = () => {
   return (
     <>
         <div className="navbar bg-base-100">

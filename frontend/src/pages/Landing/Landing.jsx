@@ -1,7 +1,7 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
 import { Navbar } from "../../components/Navbar/Navbar";
-const Landing: React.FC<{}> = () => {
+
+const Landing = () => {
   return (
     <>
       <Navbar></Navbar>

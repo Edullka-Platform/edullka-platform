@@ -1,13 +1,11 @@
-import React from "react";
-import { Routes, Route, Router } from "react-router-dom";
-
+import { Route, Routes } from "react-router-dom";
+import { Dashboard } from "./pages/Dashboard";
 import { Landing } from "./pages/Landing";
 import { Login } from "./pages/Login";
-import { Register } from "./pages/Register";
 import { Profile } from "./pages/Profile";
-import { Dashboard } from "pages/Dashboard";
+import { Register } from "./pages/Register";
 
-function App(): JSX.Element {
+const App = () => {
   return (
     <div>
       <Routes>

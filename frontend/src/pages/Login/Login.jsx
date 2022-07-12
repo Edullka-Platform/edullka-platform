@@ -1,31 +1,27 @@
-import React, { useState }  from "react";
-import logo from "../../assets/img/logo.png"
-import {useHistory} from "react-router-dom";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import logo from "../../assets/img/logo.png";
 import AuthService from "../../services/auth.service";
 
-const Login: React.FC<{}> = () => {
+const Login = () => {
 
-// ------------------ WORKING 4 U -------------------------------------------
-
-  //ref:  https://www.bezkoder.com/react-typescript-login-example/
-
-  const [email, setEmail] = React.useState<string>("");
-  const [password, setPassword] = React.useState<string>("");
-  const [loading, setLoading] = React.useState<boolean>(false);
-  const [message, setMessage] = React.useState<string>("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
 
 
-  let history = useHistory();
-  const handleLogin = (formValue: React.FormEvent<HTMLFormElement>) => {
+  const navigate = useNavigate();
+  const handleLogin = (formValue) => {
     formValue.preventDefault();
     const { email, password } = formValue;
 
     AuthService.login(email, password)
     .then(() => {
-        history.push("/perfil");
-        window.location.reload();
+        navigate("/perfil", { replace: true });
+        // window.location.reload();
       })
-      .catch((err: string) =>{
+      .catch((err) =>{
         console.log(err)
       });
   }

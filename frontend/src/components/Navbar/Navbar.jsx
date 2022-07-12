@@ -1,7 +1,6 @@
-import React from "react";
 import logo from "../../assets/img/logo.png";
 
-export const Navbar: React.FC<{}> = () => {
+export const Navbar = () => {
   return(
     <div className="mt-5 border-2 border-b-brand-pantone669C border-t-brand-pantone669C">
         <div className="navbar ">

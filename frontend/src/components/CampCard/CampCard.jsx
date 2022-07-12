@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/icons/Recurso 171.svg";
 
-const CampCard: React.FC<{}> = () => {
+const CampCard = () => {
   return (
     <a className="group" href="#">
       <div className="p-4 w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 group-hover:opacity-75">
