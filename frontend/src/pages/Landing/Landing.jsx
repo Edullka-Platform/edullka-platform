@@ -4,8 +4,8 @@ import { Navbar } from "../../components/Navbar/Navbar";
 const Landing = () => {
   return (
     <>
-      <Navbar></Navbar>
-      <div className="container mx-auto flex justify-center pt-32">
+      <Navbar/>
+      <div className="bg-base-100 container mx-auto flex justify-center pt-32">
         <p className="text-center text-6xl font-semibold">
           Aprende{" "}
           <span className="font-bold text-cyan-700">
