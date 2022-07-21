@@ -20,15 +20,30 @@ const getName = async () => {
 
 <h3>Variables</h3>
 <ul>
-  <li>Camel Case.</li>
+  <li>camelCase.</li>
   <li>Lo más explícito posible.</li>
   <li>Si se usa números, que sea en texto.</li>
 </ul>
 
-<h3>Funciones</h3>
+<h3>Funciones y métodos</h3>
 <ul>
-  <li>Camel Case.</li>
+  <li>camelCase.</li>
   <li>Arrow functions.</li>
   <li>Lo más explícito posible.</li>
   <li>Si se usa números, que sea en texto.</li>
+</ul>
+
+<h3>Clases y componentes</h3>
+<ul>
+  <li>UpperCamelCase.</li>
+</ul>
+
+<h3>Archivos</h3>
+<ul>
+  <li>kebab-case.</li>
+</ul>
+
+<h3>Paquetes y carpetas</h3>
+<ul>
+  <li>lowercase.</li>
 </ul>
