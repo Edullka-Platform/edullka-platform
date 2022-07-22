@@ -23,6 +23,7 @@ const getName = async () => {
   <li>camelCase.</li>
   <li>Lo más explícito posible.</li>
   <li>Si se usa números, que sea en texto.</li>
+  <li>Las variables en entidades deben ser UpperCamelCase.</li>
 </ul>
 
 <h3>Funciones y métodos</h3>
