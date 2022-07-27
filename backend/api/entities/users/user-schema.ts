@@ -50,6 +50,7 @@ UserSchema.pre('save', function (next) {
     })
     .catch(err => {
       next(err);
+      // error handling
     })
 });
 
