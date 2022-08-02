@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import express, { Application, NextFunction, Request, Response } from 'express';
-import userRoutes from './routes/user-routes';
+import userRoutes from './routes';
 
 dotenv.config();
 
