@@ -1,5 +1,5 @@
-import { createQuestionController } from "controllers/questions-controller";
 import { Router } from "express";
+import { createQuestionController } from "../controllers/questions-controller";
 import { createUserController } from '../controllers/user-controller';
 
 
