@@ -1,3 +1,4 @@
+import { createQuestionController } from "controllers/questions-controller";
 import { Router } from "express";
 import { createUserController } from '../controllers/user-controller';
 
@@ -13,6 +14,7 @@ const routerApi = (app: any) => {
   routerVersion.use('/v1', router);
 
     router.post('/user', createUserController);
+    router.post('/question', createQuestionController);
 
 
   // ============ Version 2 ====================
