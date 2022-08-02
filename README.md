@@ -50,3 +50,20 @@ If you don't have intalled yarn, you can install it with:
 
 2) Run the project
 > yarn run start:dev
+
+<h3>Endpoints</h3>
+
+<h3>Api Questions</h3>
+<h3>Get Questions</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Method</th><th>URI</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td><td>api/v1/question</td>
+        </tr>
+    </tbody>
+<table>
