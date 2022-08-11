@@ -8,6 +8,7 @@ export interface IUser {
   password: string;
   image: string;
   role: string;
+  calendlyId: string;
   createdAt: Date;
   updatedAt: Date;
 }

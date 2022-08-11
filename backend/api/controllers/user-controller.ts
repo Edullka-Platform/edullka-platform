@@ -14,6 +14,7 @@ export const signupUser = async (req: Request<{}, {}, CreateUserType>, res: Resp
         lastName: newUser.lastName,
         email: newUser.email,
         userId: newUser.id,
+        calendlyId: newUser.calendlyId,
       });
     console.log(token);
     res.status(201).json({ token: token });
@@ -63,6 +64,7 @@ export const signinUser = async (req: Request<{}, {}, CreateUserType>, res: Resp
         lastName: user.lastName,
         email: user.email,
         userId: user.id,
+        calendlyId: user.calendlyId,
       });
 
     res.json({ token: token });
