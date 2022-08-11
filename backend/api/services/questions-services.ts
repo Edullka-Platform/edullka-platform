@@ -1,5 +1,5 @@
-import { QuestionModel } from "entities/questions/questions-model";
-import { CreateQuestionsType } from "entities/questions/questions-types";
+import { QuestionModel } from "../entities/questions/questions-model";
+import { CreateQuestionsType } from "../entities/questions/questions-types";
 
 export const CreateQuestionService = async (question: CreateQuestionsType) => {
   try {
