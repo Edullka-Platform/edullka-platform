@@ -37,6 +37,10 @@ export const UserSchema = new Schema<IUser>({
     type: String,
     default: 'student',
     enum: ['super', 'admin', 'student'],
+  },
+  calendlyId: {
+    type: String,
+    default: '',
   }
 }, {
   timestamps: true,
