@@ -5,13 +5,17 @@ Facebook: https://www.facebook.com/CampamentosEdullka
 
 Instagram: https://www.instagram.com/edullka_camp/
 
-
 ## Installation
 **Clone the Repository**
 ```
 git clone https://github.com/Edullka-Platform/edullka-platform.git
 cd edullka-platform
 ```
+## Views
+
+[![Dashboard-Edullker-Light.png](https://i.postimg.cc/DyY5tLWc/Dashboard-Edullker-Light.png)](https://postimg.cc/VdnjtSWS)
+[![Logros-2.png](https://i.postimg.cc/wMFH60KM/Logros-2.png)](https://postimg.cc/9w4sbPQH)
+[![mentores.png](https://i.postimg.cc/Vk0yTYNd/mentores.png)](https://postimg.cc/w1zbRYLp)
 
 <h2>FrontEnd</h2>
 
