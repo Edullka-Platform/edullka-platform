@@ -7,7 +7,7 @@ import { Register } from "./pages/Register";
 
 const App = () => {
   return (
-    <div>
+    <div className="font-global">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />

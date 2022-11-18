@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/img/logo.png";
 import AuthService from "../../services/auth.service";
 
 const Login = () => {
@@ -39,7 +38,7 @@ const Login = () => {
             {/* ---------------- LOGIN ---------------- */}
             <form action="/dashboard" onSubmit={handleLogin}>
               <a className="btn btn-ghost normal-case text-xl relative right-3.5" href="/">
-                <img src={logo} alt="Edullka Logo" className="w-10 mr-1" />
+                <img src='/img/logo.png' alt="Edullka Logo" className="w-10 mr-1" />
                 edullka
               </a>
               <p className="font-bold text-2xl mb-6">

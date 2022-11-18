@@ -18,7 +18,7 @@ const Landing = () => {
                   .typeString("Java ❤")
                   .pauseFor(3000)
                   .deleteAll()
-                  .typeString("Javascript ❤")
+                  .typeString("JavaScript ❤")
                   .pauseFor(3000)
                   .deleteAll()
                   .typeString("Python ❤")
